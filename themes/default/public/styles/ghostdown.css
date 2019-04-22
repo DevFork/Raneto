@@ -1,13 +1,17 @@
 html {
-	font: 62.5%/1.65 "Open Sans", sans-serif
+	font: 80%/1 "Open Sans", sans-serif
 }
 body {	
-	font-size: 1.3rem
+	font-size: 1.2rem
 }
 .CodeMirror {
-	font-family: monospace;
-	height: 300px
+	color: #333;
+	font-family: "Microsoft YaHei" monospace Arial sans-serif;
+	background-color: #FFF;
+	border:1px solid #ece2e2;
+	height: 500px
 }
+
 .CodeMirror-scroll {
 	overflow: auto
 }
@@ -28,7 +32,10 @@ body {
 	padding: 0 3px 0 5px;
 	min-width: 20px;
 	text-align: right;
-	color: #999
+
+	background-color: #F7F7F7;
+	color: #999;
+	border:1px solid #ddd;
 }
 .CodeMirror div.CodeMirror-cursor {
 	border-left: 1px solid black

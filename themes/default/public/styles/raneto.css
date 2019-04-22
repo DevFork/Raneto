@@ -210,3 +210,22 @@
   }
 
 }
+
+
+a.btn.btn-info {
+    font-size: 14px;
+}
+
+button.btn.btn-secondary.dropdown-toggle {
+    font-size: 100%;
+}
+
+li.dropdown-item a {
+    font-size: 120%;
+}
+
+.btn-group.btn-group-sm.float-right button {
+    font-size: 100%;
+}
+
+.col-sm-6 .content h3 {line-height: 120%;}
